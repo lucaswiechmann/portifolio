@@ -13,14 +13,13 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Lucas Wiechmann</h2>
+                <div class="profile-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="#about" class="nav-link active">About</a>
                 </li>
                 <li class="nav-item">
                     <a href="#tech" class="nav-link">Tech Stack</a>
@@ -32,92 +31,74 @@
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div class="nav-right">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="profile-icon">
+                    <i class="fas fa-user-circle"></i>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    Software Engineer
-                    <span class="highlight">Building for Scale</span>
-                </h1>
-                <p class="hero-description">
-                    Developing high-scalability backend applications for millions of users. 
-                    Passionate about technology, nature, and creating meaningful impact.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <div class="profile-card">
-                    <div class="profile-image">
-                        <i class="fas fa-user-circle"></i>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1 class="about-title">
+                        Hi, I'm Lucas Wiechmann.
+                    </h1>
+                    <div class="about-description">
+                        <p>
+                            I'm a software engineer, developing applications for millions of users. I have always loved creating things and solving complex problems through technology.
+                        </p>
+                        <p>
+                            I love nature and sports. I'm a surfer at free times, and I have a YouTube channel where I share my adventures. I'm a drone lover, capturing the beauty of the world from above.
+                        </p>
+                        <p>
+                            I'm open to projects that will impact society. I believe technology should make a positive difference in people's lives, and I'm passionate about building scalable systems that can serve millions of users while creating meaningful change.
+                        </p>
                     </div>
-                    <h3>Lucas Wiechmann</h3>
-                    <p>Backend Engineer</p>
+                </div>
+                <div class="about-visual">
+                    <div class="profile-image-container">
+                        <div class="profile-image">
+                            <img src="images/profile.png" alt="Lucas Wiechmann" />
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@ww_wworld5884" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                            <span>Follow on YouTube</span>
+                        </a>
+                        <a href="https://x.com/Lucaswiech" target="_blank" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                            <span>Follow on Twitter</span>
+                        </a>
+                        <a href="https://medium.com/@lucas-wiechmann" target="_blank" class="social-link">
+                            <i class="fab fa-medium"></i>
+                            <span>Follow on Medium</span>
+                        </a>
+                        <a href="https://github.com/lucaswiechmann" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>Follow on GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lucaswiechmann011/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>Follow on LinkedIn</span>
+                        </a>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <span>lucas@wiechmann.dev</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        I'm a software engineer developing applications for millions of users. 
-                        With extensive experience in high-scalability backend systems, I specialize 
-                        in building robust, performant solutions that can handle massive scale.
-                    </p>
-                    <p>
-                        When I'm not coding, you'll find me surfing, capturing drone footage of my 
-                        adventures, or sharing my experiences on my YouTube channel. I'm passionate 
-                        about projects that create real societal impact and love exploring new 
-                        technologies that push the boundaries of what's possible.
-                    </p>
-                    <div class="about-highlights">
-                        <div class="highlight-item">
-                            <i class="fas fa-users"></i>
-                            <span>Millions of users served</span>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-wave-square"></i>
-                            <span>Surfer & Drone Enthusiast</span>
-                        </div>
-                        <div class="highlight-item">
-                            <i class="fas fa-heart"></i>
-                            <span>Impact-driven projects</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <h3>5+</h3>
-                        <p>Years Experience</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>10+</h3>
-                        <p>Technologies Mastered</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>∞</h3>
-                        <p>Passion for Learning</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Tech Stack Section -->
     <section id="tech" class="tech-stack">
@@ -262,39 +243,13 @@
         <div class="container">
             <h2 class="section-title">Let's Connect</h2>
             <div class="contact-content">
-                <div class="contact-info">
+                <div class="contact-card">
                     <h3>Ready to work together?</h3>
                     <p>I'm always open to discussing new opportunities and projects that can make a real impact. Let's build something amazing together!</p>
-                    
-                    <div class="social-links">
-                        <a href="https://www.youtube.com/channel/UC8rPZZukFQ0Bktjjk5yIscQ" target="_blank" class="social-link">
-                            <i class="fab fa-youtube"></i>
-                            <span>YouTube Channel</span>
-                        </a>
-                        <a href="https://twitter.com/Lucaswiech" target="_blank" class="social-link">
-                            <i class="fab fa-twitter"></i>
-                            <span>Twitter</span>
-                        </a>
-                        <a href="https://lucas-wiechmann.medium.com/" target="_blank" class="social-link">
-                            <i class="fab fa-medium"></i>
-                            <span>Medium</span>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+                    <a href="https://www.linkedin.com/in/lucaswiechmann011/" target="_blank" class="linkedin-btn">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Message me on LinkedIn</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -303,7 +258,17 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Lucas Wiechmann. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-nav">
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#tech" class="footer-link">Tech Stack</a>
+                    <a href="#projects" class="footer-link">Projects</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Lucas Wiechmann. All rights reserved.</p>
+                </div>
+            </div>
         </div>
     </footer>
 
