@@ -406,6 +406,15 @@ section {
     font-size: 14px;
 }
 
+.project-duration {
+    color: var(--accent-color);
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 1rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
 .project-features {
     display: flex;
     flex-wrap: wrap;
